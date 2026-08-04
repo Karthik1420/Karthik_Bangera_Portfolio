@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Mail, Download, ChevronRight } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../ui/SocialIcons';
 import { siteConfig } from '../../data/siteConfig';
+import profileImage from "../../assets/karthik-bangera.jpg";
 
 // Glass panel component for the hero visual
 function GlassPanel({ children, style = {}, className = '' }) {
@@ -243,7 +244,7 @@ export default function Hero() {
               }}
             >
               <img
-                src="/src/assets/karthik-bangera.jpg"
+                src={profileImage}
                 alt="Karthik Bangera — Design Engineer"
                 className="w-full h-full object-cover"
                 style={{ filter: 'saturate(0.85)' }}
