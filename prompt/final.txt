@@ -1,0 +1,1569 @@
+You are a Senior Frontend Engineer, Design Engineer, Creative Developer, UI/UX Engineer, Motion Designer, and Product Designer.
+
+BUILD THE COMPLETE PORTFOLIO WEBSITE NOW.
+
+This is not a request for a plan, explanation, wireframe, mockup, or code snippets.
+
+I want you to actually create the complete working website in the project workspace.
+
+Do not stop after creating the hero.
+Do not leave sections as TODOs.
+Do not create placeholder components for major functionality.
+Do not simplify the design into a generic portfolio.
+Do not ask me unnecessary questions.
+
+If the project is empty, initialize it.
+If a React/Vite project already exists, work within it and improve it.
+
+==================================================
+1. TECH STACK — USE EXACTLY THIS
+==================================================
+
+Frontend:
+- React
+- Vite
+- JavaScript (NOT TypeScript)
+- Tailwind CSS
+- Framer Motion / Motion for React
+- React Router
+- Lucide React
+
+Do NOT switch to:
+- Next.js
+- TypeScript
+- Vue
+- Angular
+- Three.js unless absolutely necessary
+
+The website must be deployable to Vercel or Netlify.
+
+Use a clean component-based architecture.
+
+==================================================
+2. CORE OBJECTIVE
+==================================================
+
+Build a premium personal portfolio for:
+
+Karthik Bangera
+
+The portfolio is primarily intended for:
+- Design Engineer internship opportunities
+- Frontend Engineering opportunities
+- Software Engineering opportunities
+- Full-Stack Development opportunities
+
+The first impression should communicate:
+
+"This person is creative but technically strong."
+
+"He has excellent attention to detail."
+
+"He understands product thinking."
+
+"He can design and build."
+
+"This guy has huge potential."
+
+The website should feel like a premium digital product rather than a traditional developer resume website.
+
+It should feel:
+- Premium
+- Cinematic
+- Elegant
+- Minimal
+- Sophisticated
+- Creative
+- Technical
+- Interactive
+- Spacious
+- Modern
+- Handcrafted
+
+It must NOT feel:
+- Like a generic AI-generated portfolio
+- Like a template
+- Gamer-like
+- Cyberpunk
+- Neon/RGB
+- Hacker-themed
+- Overly colorful
+- Overly animated
+- Difficult to navigate
+
+==================================================
+3. DESIGN DIRECTION — "CONTINUUM"
+==================================================
+
+Use a cohesive design language inspired by the quality and discipline of:
+- Apple
+- Linear
+- Stripe
+- Vercel
+- Framer
+- Figma
+- High-quality Awwwards portfolios
+
+DO NOT COPY these websites.
+
+Use them only as quality references.
+
+The design language is called:
+
+CONTINUUM
+
+Core design principles:
+
+Quiet
+Precise
+Warm
+Layered
+Alive
+
+The design should communicate depth through:
+- Typography
+- Spacing
+- Layered surfaces
+- Ambient lighting
+- Subtle gradients
+- Motion
+- Precision
+
+Do not use decoration simply because there is empty space.
+
+Whitespace is intentional.
+
+==================================================
+4. COLOR SYSTEM
+==================================================
+
+Dark mode only.
+
+Do NOT use pure black.
+
+Use these design tokens:
+
+background.base:
+#0A0A0F
+
+background.raised:
+#121218
+
+background.surface:
+#17171F
+
+background.overlay:
+#1D1D27
+
+border.hairline:
+rgba(255,255,255,0.08)
+
+border.hover:
+rgba(255,255,255,0.16)
+
+glass.fill:
+rgba(255,255,255,0.04)
+
+glass.highlight:
+rgba(255,255,255,0.06)
+
+text.primary:
+#F2F2F5
+
+text.secondary:
+#A6A6B3
+
+text.tertiary:
+#6E6E7C
+
+accent.primary:
+#5B6EF5
+
+accent.secondary:
+#9B7BFF
+
+accent.tertiary:
+#4FD1E8
+
+Continuum gradient:
+linear-gradient(135deg, #5B6EF5 0%, #9B7BFF 55%, #4FD1E8 100%)
+
+success:
+#34D399
+
+warning:
+#FBBF24
+
+error:
+#F87171
+
+Use the accent gradient very sparingly.
+
+Maximum one obvious accent-gradient moment per viewport.
+
+Do not turn the entire website purple/blue.
+
+==================================================
+5. TYPOGRAPHY
+==================================================
+
+Use:
+
+Display / headings:
+Cabinet Grotesk
+
+Body / UI:
+General Sans
+
+Technical labels / metadata:
+JetBrains Mono
+
+If external font loading is inconvenient, use a close premium fallback, but preserve the visual hierarchy.
+
+Typography should be fluid/responsive.
+
+Approximate scale:
+
+Hero display:
+96px desktop → 44px mobile
+
+H1:
+64px → 36px
+
+H2:
+44px → 28px
+
+H3:
+30px → 22px
+
+Body Large:
+20px → 18px
+
+Body:
+17px → 16px
+
+Small:
+14px
+
+Mono labels:
+12px uppercase with letter spacing
+
+Use negative tracking only on large display headings.
+
+Never make body text difficult to read.
+
+==================================================
+6. SPACING + GRID
+==================================================
+
+Use an 8px spacing system with 4px fine adjustments.
+
+Major section spacing:
+approximately 160px desktop
+96px tablet
+64px mobile
+
+Use:
+- 12-column desktop grid
+- maximum content width around 1280px
+- generous side margins
+- spacious layouts
+- consistent alignment
+
+Do not cram content.
+
+==================================================
+7. GLOBAL WEBSITE FLOW
+==================================================
+
+Main page:
+
+Navigation
+↓
+Hero
+↓
+About
+↓
+Skills
+↓
+Selected Work
+↓
+Journey
+↓
+Contact
+↓
+Footer
+
+Use section numbering:
+
+01 · About
+02 · Skills
+03 · Selected Work
+04 · Journey
+05 · Contact
+
+The project showcase is the visual centerpiece.
+
+==================================================
+8. NAVIGATION
+==================================================
+
+Create a premium floating/sticky navbar.
+
+Desktop:
+
+Left:
+custom "KB" wordmark.
+
+The KB mark should be minimal and refined, with a tiny Continuum-gradient dot.
+
+Center:
+Work
+About
+Journey
+Contact
+
+Right:
+Resume
+Let's Talk
+
+The navbar should initially be transparent over the hero.
+
+After approximately 80px scroll:
+- transition into a subtle glass surface
+- backdrop blur
+- hairline border
+- slightly reduced height
+- smooth transition
+
+Active section:
+small animated underline/tick rather than a heavy pill.
+
+"Let's Talk" should be visually emphasized but still refined.
+
+Resume should be easy to find.
+
+Mobile:
+Use a full-screen menu takeover.
+
+Do NOT use a tiny dropdown.
+
+Menu items should be large, elegant, and stagger into view.
+
+All touch targets must be at least 44px.
+
+==================================================
+9. HERO — MOST IMPORTANT FIRST IMPRESSION
+==================================================
+
+Create an asymmetric hero.
+
+Desktop:
+approximately 60% content / 40% visual.
+
+Do NOT center everything.
+
+Do NOT make the portrait the giant centerpiece.
+
+Hero content:
+
+Eyebrow:
+● Available for opportunities
+
+Name:
+Karthik Bangera
+
+Main headline:
+
+Transforming ideas into
+thoughtful digital experiences.
+
+Make:
+"thoughtful digital experiences"
+the Continuum gradient text.
+
+Use the gradient text only here in the hero.
+
+Role line:
+
+Design Engineer · Full-Stack Developer · AI Explorer
+
+Short intro:
+
+I'm a BCA graduate passionate about designing and building modern digital products. I enjoy transforming ideas into clean, intuitive user experiences using React, FastAPI, and PostgreSQL. I'm constantly exploring new technologies, with a growing interest in AI-powered applications and thoughtful product design.
+
+Keep the visible hero copy concise. Do not dump the entire resume here.
+
+CTA:
+View My Work
+
+Secondary:
+Download Resume
+
+Social icons:
+GitHub
+LinkedIn
+Email
+
+Links must work.
+
+Hero visual:
+
+Create a layered glass-panel composition.
+
+Use 2–3 overlapping glass panels with extremely subtle rotation/depth.
+
+Panels can contain:
+- small code/interface snippets
+- project UI fragments
+- a compact stat such as "CGPA 9.12"
+- another compact stat such as "5 Projects"
+- Karthik's professional photo
+
+The supplied professional photo should be used as a refined element inside the composition, NOT as a giant influencer-style portrait.
+
+If the image asset is not accessible to the project automatically, create the expected asset path:
+
+src/assets/karthik-bangera.jpg
+
+and make the code use that path so I can place the image there.
+
+Do not invent a different person or use stock photography.
+
+Ambient Continuum glow:
+very subtle
+low opacity
+large blurred radial gradient
+slow movement
+
+Hero should feel alive but remain fast.
+
+==================================================
+10. ABOUT
+==================================================
+
+Use an asymmetric two-column layout.
+
+Alternate visual/text balance compared with the hero.
+
+Section label:
+01 · About
+
+Heading:
+
+I build things end-to-end — because the gap between design and engineering is where most products lose their soul.
+
+Create an abstract "transformation" visual using subtle SVG/grid/node geometry.
+
+Do not use cheesy illustrations.
+
+About content should communicate:
+- BCA graduate
+- product builder
+- React/FastAPI/PostgreSQL
+- design engineering interest
+- AI-assisted development interest
+- product thinking
+- continuous learning
+
+Use concise paragraphs.
+
+Add three principles:
+
+Clarity over cleverness
+Details compound
+Ship, then refine
+
+Add a compact credibility strip:
+BCA · CGPA 9.12
+CEO · SYGMA National-Level Technical Fest
+
+==================================================
+11. SKILLS
+==================================================
+
+Section:
+02 · Skills
+
+Do NOT use skill percentage bars.
+
+Do NOT use a generic logo wall.
+
+Create a premium "Toolkit Grid".
+
+Six categories:
+
+FRONTEND
+React.js
+JavaScript
+HTML5
+CSS3
+SCSS
+Tailwind CSS
+
+BACKEND
+Python
+FastAPI
+REST APIs
+JWT Authentication
+
+DESIGN
+Figma
+Auto Layout
+Components
+Variables
+
+AI
+Cursor
+GitHub Copilot
+Claude Code
+Gemini API Integration
+
+DATABASES
+PostgreSQL
+MySQL
+
+VERSION CONTROL
+Git
+GitHub
+
+Use six refined category cards.
+
+AI card may have a very subtle Continuum glow.
+
+Use minimal line icons.
+
+Cards should have restrained hover interactions.
+
+Optional command-palette style skill filtering can be implemented if it does not compromise performance. It should not become a launch blocker.
+
+==================================================
+12. SELECTED WORK — THE CENTERPIECE
+==================================================
+
+Section:
+03 · Selected Work
+
+Heading:
+Five ideas, shipped.
+
+Subtext:
+A mix of AI-driven, full-stack, and design-focused builds.
+
+IMPORTANT:
+
+DO NOT make this a boring 3-column card grid.
+
+Use full-width alternating showcase sections.
+
+Each project should have room to breathe.
+
+Each showcase should feel closer to a premium product launch page.
+
+Alternate visual alignment:
+Project 1 → visual right
+Project 2 → visual left
+Project 3 → visual right
+Project 4 → visual left
+Project 5 → visual right
+
+Each project block includes:
+
+Project number
+Featured badge when applicable
+Project title
+One-line purpose
+Category
+Technology tags
+Status
+Large browser/device mockup
+View Case Study
+Live Demo / GitHub when available
+
+Project order is EXACTLY:
+
+01 — TalentMatch AI
+02 — Classroom Management System
+03 — Exotica Skincare
+04 — Blood Bank Management System
+05 — Rhythm Ragas
+
+==================================================
+13. PROJECT CONTENT
+==================================================
+
+PROJECT 01 — TALENTMATCH AI
+
+Featured flagship project.
+
+Stack:
+React.js
+Tailwind CSS
+FastAPI
+PostgreSQL / Neon
+JWT
+Gemini API
+
+Description:
+A full-stack recruitment platform designed to match candidates with job opportunities and provide AI-powered candidate evaluation.
+
+Features to communicate:
+- AI-powered ATS scoring
+- Resume analysis
+- Job description matching
+- JWT authentication
+- Role-based access
+- Recruiter dashboard
+- Admin dashboard
+- Candidate/job seeker flows
+
+Live Demo:
+https://talentmatchai-xi.vercel.app/
+
+Use a prominent Featured treatment.
+
+This is the strongest project and should receive the most visual emphasis.
+
+==================================================
+
+PROJECT 02 — CLASSROOM MANAGEMENT SYSTEM
+
+Full-stack project.
+
+Stack:
+React
+FastAPI
+PostgreSQL / Neon
+
+Key concept:
+Role-based access and management workflows.
+
+Use this project to demonstrate:
+- full-stack engineering
+- API integration
+- authentication/authorization
+- role-based systems
+- structured frontend/backend architecture
+- practical product thinking
+
+If a live demo or GitHub link is not supplied, do NOT invent one.
+
+Show status honestly.
+
+==================================================
+
+PROJECT 03 — EXOTICA SKINCARE
+
+Category:
+Responsive Web Design / Frontend
+
+Stack:
+React.js
+JavaScript
+HTML5
+CSS3
+Tailwind CSS
+
+Live Demo:
+https://karthik1420.github.io/EXOTICA/
+
+Use this project to showcase:
+- visual design
+- responsive layouts
+- UI craftsmanship
+- component reusability
+- mobile-first thinking
+- frontend implementation
+
+This project should visually contrast with the more technical TalentMatch project.
+
+==================================================
+
+PROJECT 04 — BLOOD BANK MANAGEMENT SYSTEM
+
+Stack:
+Python
+FastAPI
+PostgreSQL
+
+Features:
+- RESTful APIs
+- Blood donor management
+- Recipient management
+- Inventory management
+- Blood requests
+- CRUD operations
+- Pydantic validation
+- FastAPI Swagger UI testing
+
+This project is NOT currently a polished deployed visual product.
+
+Do not pretend it has a live demo.
+
+Focus the case study on backend engineering, API architecture, data integrity, and real-world problem solving.
+
+==================================================
+
+PROJECT 05 — RHYTHM RAGAS
+
+Category:
+Web Application / Music / Booking
+
+This is a creative project and can be presented as a passion/creative build.
+
+Technology:
+HTML
+CSS
+JavaScript
+PHP
+MySQL
+
+IMPORTANT:
+Rhythm Ragas is NOT deployed.
+
+Do not invent a live URL.
+
+Use an honest status such as:
+Completed · Not publicly deployed
+
+Use this project to show creative range and the ability to build outside purely technical CRUD systems.
+
+==================================================
+14. PROJECT DATA ARCHITECTURE
+==================================================
+
+THIS IS CRITICAL.
+
+The project section must be completely data-driven.
+
+I want to be able to:
+
+- Add a project
+- Delete a project
+- Reorder projects
+- Mark a project featured
+- Change project title
+- Change description
+- Change category
+- Change technology
+- Add/remove screenshots
+- Add live URL
+- Add GitHub URL
+- Change status
+
+WITHOUT modifying the UI components.
+
+Create centralized project data.
+
+Recommended:
+
+src/data/projects.js
+
+Each project should have structured fields for:
+
+id
+slug
+title
+subtitle
+description
+category
+role
+year
+status
+featured
+order
+technologies
+liveUrl
+githubUrl
+coverImage
+screenshots
+problem
+context
+solution
+features
+process
+challenges
+learnings
+futureImprovements
+
+Do not hardcode project-specific JSX inside ProjectCard.
+
+ProjectCard should render from data.
+
+==================================================
+15. CASE STUDY PAGES
+==================================================
+
+Every project gets:
+
+/projects/:slug
+
+Create one reusable CaseStudyPage.
+
+Do NOT create five separate hardcoded page components.
+
+Use React Router.
+
+Case study structure:
+
+Hero
+↓
+Context / Problem / Solution
+↓
+Features
+↓
+Tech Stack
+↓
+Screenshots / Gallery
+↓
+Development Process
+↓
+Challenges + Learnings
+↓
+Future Improvements
+↓
+Previous / Next Project
+↓
+Get in Touch
+
+Hero:
+- large project visual
+- title
+- purpose
+- role
+- timeline/year
+- status
+- Live Demo if available
+- GitHub if available
+
+Context / Problem / Solution:
+three-column desktop layout
+stacked mobile
+
+Labels:
+THE CONTEXT
+THE PROBLEM
+THE SOLUTION
+
+Features:
+clean 2-column list.
+
+Tech stack:
+reuse the same visual tag system.
+
+Gallery:
+support:
+- full-width image
+- two-image split
+- browser frame
+- image caption
+
+Development process:
+01 Research
+02 Architecture
+03 Build
+04 Refine
+
+Challenges + Learnings:
+two-column desktop
+stacked mobile.
+
+Future Improvements:
+short forward-looking list.
+
+End:
+Previous Project / Next Project
+Get in touch CTA
+
+==================================================
+16. CASE STUDY CONTENT FLEXIBILITY
+==================================================
+
+Make the case study content architecture scalable.
+
+Do NOT hardcode the structure for each individual project.
+
+Support reusable content blocks such as:
+
+heading
+paragraph
+image
+imageGrid
+statRow
+quote
+codeSnippet
+divider
+featureList
+
+A project should be able to contain a different combination of these blocks.
+
+This means adding a new project later must NOT require creating a new page component.
+
+==================================================
+17. JOURNEY
+==================================================
+
+Section:
+04 · Journey
+
+Heading:
+Where it's come from, where it's going.
+
+Unify:
+
+Education
+Achievements
+Certifications
+Future Experience
+
+into ONE premium vertical timeline.
+
+Do NOT create four separate sparse sections.
+
+Timeline entries:
+
+EDUCATION
+Bachelor of Computer Applications
+SDM College of Business Management, Mangalore
+2023–2026
+CGPA: 9.12
+6th Sem SGPA: 9.69
+
+ACHIEVEMENT
+CEO — SYGMA National-Level Technical Fest
+SDM College of Business Management
+Coordinated technical events and led multiple student teams.
+
+CERTIFICATION
+Job Ready AI-Powered Cohort
+
+Future experience/internships should be easily added into this same data-driven timeline.
+
+Use:
+src/data/journey.js
+
+Timeline should visually communicate progress.
+
+Use a subtle Continuum gradient line that progresses as the user scrolls.
+
+==================================================
+18. CONTACT
+==================================================
+
+Section:
+05 · Contact
+
+Do NOT use boring:
+"Contact Me"
+
+Use:
+
+Let's build something worth shipping.
+
+Subtext:
+
+Open to Design Engineering, Frontend, Software Engineering, and Full-Stack opportunities.
+
+Contact options:
+
+Email:
+karthikbangera1406@gmail.com
+
+Phone:
++91 6362475178
+
+LinkedIn:
+https://linkedin.com/in/karthikbangera-36370b279
+
+GitHub:
+https://github.com/Karthik1420
+
+Resume:
+provide a clear download button.
+
+Email:
+mailto:karthikbangera1406@gmail.com
+
+Phone:
+tel:+916362475178
+
+Add click-to-copy functionality for email and phone.
+
+After copying:
+small "Copied" confirmation / icon feedback.
+
+Do not create a complicated contact form unless it is genuinely useful.
+
+Direct contact should be the priority.
+
+Location:
+Mangalore, Karnataka, India
+
+Do NOT claim remote/relocation availability unless explicitly provided.
+
+==================================================
+19. FOOTER
+==================================================
+
+Minimal.
+
+KB logo.
+
+© current year Karthik Bangera
+
+GitHub
+LinkedIn
+Email
+
+"Designed & built by Karthik Bangera"
+
+No bloated footer.
+
+==================================================
+20. ANIMATION SYSTEM
+==================================================
+
+Use Framer Motion / Motion for React.
+
+Motion should feel expensive, subtle and intentional.
+
+NEVER use:
+- scroll-jacking
+- typewriter effect
+- generic particle.js background
+- giant preloader
+- excessive bouncing
+- aggressive 3D effects
+- animation that delays access to content
+
+Use:
+
+Scroll reveal:
+opacity + 16–24px upward movement.
+
+Stagger:
+approximately 60–80ms.
+
+Hover:
+subtle lift
+border brightening
+ambient glow
+
+Project image:
+default slightly desaturated
+hover becomes fully saturated
+subtle scale around 1.03
+
+Buttons:
+scale approximately 1.02 on hover
+0.98 on press
+
+Links:
+underline draws left-to-right.
+
+Images:
+soft clip-path reveal + slight scale from 1.05 to 1.
+
+Ambient background:
+very slow 12–20 second movement.
+
+Hero:
+subtle cursor-aware glow.
+
+Primary CTA:
+subtle magnetic interaction ONLY if it remains performant.
+
+Page transitions:
+smooth fade/shared-element feeling between project showcase and case study.
+
+If true shared-element routing is technically unreliable in the chosen implementation, implement the closest polished equivalent rather than breaking navigation.
+
+IMPORTANT:
+Support prefers-reduced-motion.
+
+When reduced motion is enabled:
+- remove parallax
+- remove cursor glow
+- remove magnetic interaction
+- minimize movement
+- preserve readability and navigation
+
+==================================================
+21. SMOOTH SCROLL
+==================================================
+
+The entire site should have a premium smooth scrolling feel.
+
+BUT:
+Never hijack native scrolling.
+
+Do not make scroll speed weird.
+
+Scrolling must remain accessible and natural.
+
+Add a subtle 2px Continuum scroll-progress indicator at the top.
+
+==================================================
+22. 3D / DEPTH
+==================================================
+
+I specifically want a creative, Awwwards-inspired 3D feeling.
+
+However:
+
+DO NOT turn the website into a Three.js demo.
+
+Use CSS 3D transforms, perspective, layered glass panels, depth, subtle floating elements, parallax, shadows, and perspective where appropriate.
+
+The website should feel dimensional without sacrificing performance.
+
+Maximum tilt should be extremely subtle.
+
+No gimmicky spinning cards.
+
+==================================================
+23. RESPONSIVENESS
+==================================================
+
+THIS IS NON-NEGOTIABLE.
+
+Design intentionally for:
+
+375px mobile
+768px tablet
+1024px laptop
+1440px desktop
+1920px large desktop
+
+Mobile is NOT simply a scaled-down desktop.
+
+Mobile:
+- stacked hero
+- readable 44px-ish display headline
+- no cursor glow
+- almost no parallax
+- no hover-only information
+- project metadata always visible
+- single-column layouts
+- full-screen navigation
+- touch targets >=44px
+
+Desktop:
+- asymmetric layouts
+- generous whitespace
+- large project visuals
+- layered depth
+- subtle cursor interactions
+
+Test carefully at all major breakpoints.
+
+==================================================
+24. ACCESSIBILITY
+==================================================
+
+Use semantic HTML.
+
+One H1 per page.
+
+Correct heading hierarchy.
+
+Keyboard navigation.
+
+Visible focus states.
+
+Skip-to-content link.
+
+ARIA where needed.
+
+Meaningful alt text.
+
+Decorative elements aria-hidden.
+
+WCAG AA contrast.
+
+Reduced motion support.
+
+No interaction should depend exclusively on hover.
+
+==================================================
+25. PERFORMANCE
+==================================================
+
+Keep it fast.
+
+Target Lighthouse:
+90+ Performance
+95+ Accessibility
+95+ Best Practices
+95+ SEO
+
+Prioritize:
+- lazy loading images
+- optimized images
+- WebP/AVIF where practical
+- transform/opacity animations
+- avoid layout thrashing
+- avoid unnecessary dependencies
+- lazy-load heavy elements
+- no unnecessary WebGL
+- no giant background video
+
+The hero must render quickly.
+
+Do not make an animation preloader delay the site.
+
+==================================================
+26. SEO
+==================================================
+
+Implement:
+
+Title:
+Karthik Bangera — Design Engineer • Full-Stack Developer • AI Explorer
+
+Meta description focused on:
+Design Engineering
+Frontend
+Full-Stack
+AI-assisted development
+
+Add:
+- Open Graph metadata where appropriate
+- favicon
+- semantic HTML
+- robots.txt
+- sitemap where practical for Vite deployment
+- structured data if practical
+
+Project pages should have unique titles/descriptions based on project data.
+
+==================================================
+27. DATA FILES / MAINTAINABILITY
+==================================================
+
+Use a structure similar to:
+
+src/
+  assets/
+  components/
+    ui/
+    layout/
+    motion/
+    sections/
+    projects/
+    case-study/
+  data/
+    projects.js
+    skills.js
+    journey.js
+    siteConfig.js
+  pages/
+    Home.jsx
+    Work.jsx
+    CaseStudy.jsx
+    NotFound.jsx
+  hooks/
+  lib/
+  styles/
+  App.jsx
+  main.jsx
+
+Keep this pragmatic.
+
+Do not create hundreds of meaningless components.
+
+Create reusable components where reuse genuinely improves maintainability.
+
+==================================================
+28. SITE CONFIG
+==================================================
+
+Centralize personal/contact information in:
+
+src/data/siteConfig.js
+
+Include:
+name
+title
+tagline
+email
+phone
+location
+github
+linkedin
+resume
+social links
+
+Do NOT scatter these values throughout components.
+
+==================================================
+29. PROJECT STATUS HONESTY
+==================================================
+
+Do not invent links.
+
+Known live demos:
+
+TalentMatch AI:
+https://talentmatchai-xi.vercel.app/
+
+Exotica:
+https://karthik1420.github.io/EXOTICA/
+
+Blood Bank:
+No live demo supplied.
+
+Rhythm Ragas:
+Not deployed.
+
+Classroom:
+No live demo supplied here.
+
+If a project does not have a live link:
+show a graceful status such as:
+Completed · Not publicly deployed
+or
+In Development
+
+Never create fake URLs.
+
+For GitHub:
+Do not invent individual repository URLs unless provided.
+
+You may link the main GitHub profile:
+https://github.com/Karthik1420
+
+==================================================
+30. RESUME DOWNLOAD
+==================================================
+
+Create the UI so the Resume button expects:
+
+/public/Karthik-Bangera-Resume.pdf
+
+If the PDF is not present yet, keep the button architecture ready and clearly identify the exact file location I need to add.
+
+Do not create a fake PDF.
+
+==================================================
+31. PHOTO
+==================================================
+
+Use my supplied professional photo.
+
+Expected asset:
+
+src/assets/karthik-bangera.jpg
+
+If the image is already available in the workspace, use it.
+
+Do not replace it with stock photography.
+
+Do not make the photo the dominant visual.
+
+Use it tastefully within the layered hero composition and potentially the About section if visually appropriate.
+
+==================================================
+32. PROJECT VISUALS
+==================================================
+
+I may add screenshots later.
+
+Create a clean asset structure such as:
+
+src/assets/projects/
+  talentmatch/
+  classroom/
+  exotica/
+  blood-bank/
+  rhythm-ragas/
+
+The UI must gracefully handle missing screenshots during development.
+
+Do NOT fill the portfolio with random stock images.
+
+If a project screenshot is unavailable, use a refined placeholder browser frame that clearly looks like a temporary project visual and can easily be replaced through project data.
+
+Do not invent fake UI screenshots that could be mistaken for actual project functionality.
+
+==================================================
+33. CONTENT QUALITY
+==================================================
+
+Do not make the website overly wordy.
+
+Recruiters scan.
+
+Use:
+- strong headings
+- short paragraphs
+- visual hierarchy
+- compact metadata
+- meaningful whitespace
+
+Do not repeat my entire resume everywhere.
+
+The website should tell a story, not duplicate a PDF.
+
+==================================================
+34. IMPORTANT DESIGN RULES
+==================================================
+
+Do NOT:
+- use generic gradient blobs everywhere
+- use huge text for every section
+- use excessive glassmorphism
+- use excessive rounded cards
+- use random colorful icons
+- use skill percentage bars
+- use generic developer illustrations
+- use particle backgrounds
+- use fake statistics
+- invent clients
+- invent employers
+- invent testimonials
+- invent project metrics
+- invent project links
+- claim projects are deployed when they aren't
+- add unnecessary sections simply to make the site longer
+
+DO:
+- prioritize typography
+- prioritize whitespace
+- use depth carefully
+- make project visuals excellent
+- keep motion subtle
+- make every interaction intentional
+- make navigation effortless
+- make mobile excellent
+- make content editable through data
+- keep the design recruiter-friendly
+
+==================================================
+35. IMPORTANT: DO NOT BUILD A GENERIC TEMPLATE
+==================================================
+
+Before implementation, internalize the design direction.
+
+The final website should NOT look like:
+
+"AI Portfolio Template #47"
+
+It should feel authored.
+
+The Continuum visual identity should be recognizable through:
+- typography
+- gradient restraint
+- spacing
+- mono metadata
+- project showcase rhythm
+- subtle image desaturation
+- precise borders
+- ambient depth
+- motion discipline
+- asymmetrical layouts
+
+==================================================
+36. BUILD ORDER
+==================================================
+
+Implement in this order:
+
+1. Project setup
+2. Tailwind/design tokens
+3. Global typography and styles
+4. Data architecture
+5. Navbar
+6. Hero
+7. About
+8. Skills
+9. Project showcase
+10. Project data
+11. Case study routing
+12. Case study template
+13. Journey
+14. Contact
+15. Footer
+16. 404
+17. Responsive behavior
+18. Motion polish
+19. Accessibility
+20. SEO
+21. Performance cleanup
+
+Do not stop after step 1 or 2.
+
+Continue until the website is complete.
+
+==================================================
+37. QUALITY CONTROL
+==================================================
+
+After implementation, review the entire site as:
+
+1. A Design Engineer
+2. A Senior Product Designer
+3. A Recruiter looking for a Design Engineer
+4. A frontend engineer reviewing the code
+
+Fix issues you find.
+
+Check:
+- visual consistency
+- spacing
+- typography
+- responsive behavior
+- broken links
+- console errors
+- routing
+- animation smoothness
+- accessibility
+- mobile navigation
+- project ordering
+- missing content
+- overflow issues
+- image handling
+- buttons
+- hover states
+- keyboard navigation
+
+Do not just tell me what is wrong.
+
+FIX IT IN THE CODE.
+
+==================================================
+38. FINAL REQUIREMENT
+==================================================
+
+BUILD THE WEBSITE.
+
+Do not return a design proposal.
+
+Do not return pseudocode.
+
+Do not only explain what you would build.
+
+Create the actual files and implementation in the workspace.
+
+If you need to make a reasonable implementation decision that is not explicitly specified, choose the option that best preserves:
+
+Premium
+Creative
+Technical
+Recruiter-friendly
+Fast
+Accessible
+Responsive
+Scalable
+
+Do not ask me to approve every small decision.
+
+Use your engineering judgment.
+
+When finished, give me a concise summary of:
+- what you built
+- important files created
+- how to run it
+- any assets I still need to provide
+
+But ONLY after the actual website has been implemented.

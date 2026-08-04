@@ -1,0 +1,488 @@
+{
+  "desktop": [
+    {
+      "type": "absolute_fixed",
+      "el": "skip-link",
+      "zIndex": "9999",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "DIV",
+      "zIndex": "1000",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+      "zIndex": "50",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute pointer-events-none",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8 mb-16",
+      "gridTemplateColumns": "362.656px 362.672px 362.656px 0px 0px",
+      "width": 1152,
+      "childrenCount": 3,
+      "childrenWidths": [
+        362.65625,
+        362.671875,
+        362.65625
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-3",
+      "gridTemplateColumns": "376px 376px 376px",
+      "width": 1152,
+      "childrenCount": 8,
+      "childrenWidths": [
+        376,
+        376,
+        376,
+        376,
+        376,
+        376,
+        376,
+        376
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-4",
+      "gridTemplateColumns": "276px 276px 276px 276px",
+      "width": 1152,
+      "childrenCount": 4,
+      "childrenWidths": [
+        276,
+        276,
+        276,
+        276
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8",
+      "gridTemplateColumns": "560px 560px 0px",
+      "width": 1152,
+      "childrenCount": 2,
+      "childrenWidths": [
+        560,
+        560
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid grid-cols-2 gap-6",
+      "gridTemplateColumns": "564px 564px",
+      "width": 1152,
+      "childrenCount": 2,
+      "childrenWidths": [
+        564,
+        564
+      ]
+    }
+  ],
+  "laptop": [
+    {
+      "type": "absolute_fixed",
+      "el": "skip-link",
+      "zIndex": "9999",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "DIV",
+      "zIndex": "1000",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+      "zIndex": "50",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute pointer-events-none",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8 mb-16",
+      "gridTemplateColumns": "362.656px 362.672px 362.656px 0px 0px",
+      "width": 1152,
+      "childrenCount": 3,
+      "childrenWidths": [
+        362.65625,
+        362.671875,
+        362.65625
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-3",
+      "gridTemplateColumns": "376px 376px 376px",
+      "width": 1152,
+      "childrenCount": 8,
+      "childrenWidths": [
+        376,
+        376,
+        376,
+        376,
+        376,
+        376,
+        376,
+        376
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-4",
+      "gridTemplateColumns": "276px 276px 276px 276px",
+      "width": 1152,
+      "childrenCount": 4,
+      "childrenWidths": [
+        276,
+        276,
+        276,
+        276
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8",
+      "gridTemplateColumns": "560px 560px 0px",
+      "width": 1152,
+      "childrenCount": 2,
+      "childrenWidths": [
+        560,
+        560
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid grid-cols-2 gap-6",
+      "gridTemplateColumns": "564px 564px",
+      "width": 1152,
+      "childrenCount": 2,
+      "childrenWidths": [
+        564,
+        564
+      ]
+    }
+  ],
+  "tablet": [
+    {
+      "type": "absolute_fixed",
+      "el": "skip-link",
+      "zIndex": "9999",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "DIV",
+      "zIndex": "1000",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+      "zIndex": "50",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute pointer-events-none",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8 mb-16",
+      "gridTemplateColumns": "285.875px 285.875px 285.875px 0px",
+      "width": 921.625,
+      "childrenCount": 3,
+      "childrenWidths": [
+        285.875,
+        285.875,
+        285.875
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-3",
+      "gridTemplateColumns": "299.203px 299.203px 299.219px",
+      "width": 921.625,
+      "childrenCount": 8,
+      "childrenWidths": [
+        299.203125,
+        299.203125,
+        299.21875,
+        299.203125,
+        299.203125,
+        299.21875,
+        299.203125,
+        299.203125
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-4",
+      "gridTemplateColumns": "296.531px 296.547px 296.531px",
+      "width": 921.625,
+      "childrenCount": 4,
+      "childrenWidths": [
+        296.53125,
+        296.546875,
+        296.53125,
+        296.53125
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8",
+      "gridTemplateColumns": "444.812px 444.812px 0px",
+      "width": 921.625,
+      "childrenCount": 2,
+      "childrenWidths": [
+        444.8125,
+        444.8125
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid grid-cols-2 gap-6",
+      "gridTemplateColumns": "448.812px 448.812px",
+      "width": 921.625,
+      "childrenCount": 2,
+      "childrenWidths": [
+        448.8125,
+        448.8125
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "type": "absolute_fixed",
+      "el": "skip-link",
+      "zIndex": "9999",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "DIV",
+      "zIndex": "1000",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+      "zIndex": "50",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute -bottom-1 w-1 h-1 rounded-full bg-white transition-all duration-300 opacity-0 scale-0 group-hover:opacity-40 group-hover:scale-100",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "horizontal_overflow",
+      "el": "absolute pointer-events-none",
+      "right": 587.5,
+      "bodyRight": 375
+    },
+    {
+      "type": "absolute_fixed",
+      "el": "absolute pointer-events-none",
+      "zIndex": "auto",
+      "rect": {}
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8 mb-16",
+      "gridTemplateColumns": "335px",
+      "width": 335,
+      "childrenCount": 3,
+      "childrenWidths": [
+        335,
+        335,
+        335
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-3",
+      "gridTemplateColumns": "335px",
+      "width": 335,
+      "childrenCount": 8,
+      "childrenWidths": [
+        335,
+        335,
+        335,
+        335,
+        335,
+        335,
+        335,
+        335
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-4",
+      "gridTemplateColumns": "335px",
+      "width": 335,
+      "childrenCount": 4,
+      "childrenWidths": [
+        335,
+        335,
+        335,
+        335
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid gap-8",
+      "gridTemplateColumns": "335px",
+      "width": 335,
+      "childrenCount": 2,
+      "childrenWidths": [
+        335,
+        335
+      ]
+    },
+    {
+      "type": "grid_info",
+      "className": "grid grid-cols-2 gap-6",
+      "gridTemplateColumns": "155.5px 155.5px",
+      "width": 335,
+      "childrenCount": 2,
+      "childrenWidths": [
+        155.5,
+        155.5
+      ]
+    }
+  ]
+}
