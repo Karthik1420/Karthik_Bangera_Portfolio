@@ -2,6 +2,9 @@
 // All project data is here — add, delete, or reorder projects by editing this file only.
 // ProjectCard and CaseStudy components automatically render from this data.
 
+import talentMatchCover from '../assets/projects/talentmatch/cover.png';
+import exoticaCover from '../assets/projects/exotica/cover.png';
+import rhythmRagasCover from '../assets/projects/rhythm-ragas/cover.png';
 export const projects = [
   {
     id: 1,
@@ -20,7 +23,7 @@ export const projects = [
     technologies: ['React.js', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'Neon', 'JWT', 'Gemini API'],
     liveUrl: 'https://talentmatchai-xi.vercel.app/',
     githubUrl: null,
-    coverImage: '/src/assets/projects/talentmatch/cover.png',
+    coverImage: talentMatchCover,
     screenshots: [],
     problem:
       'Recruitment processes are slow, subjective, and often miss qualified candidates. Recruiters spend hours manually screening resumes against job descriptions.',
@@ -133,7 +136,7 @@ export const projects = [
     technologies: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
     liveUrl: 'https://karthik1420.github.io/EXOTICA/',
     githubUrl: 'https://github.com/Karthik1420',
-    coverImage: '/src/assets/projects/exotica/cover.png',
+    coverImage: exoticaCover,
     screenshots: [],
     problem:
       'Most skincare brand websites sacrifice visual quality for speed, resulting in generic, unmemorable experiences that fail to communicate brand identity.',
@@ -244,7 +247,7 @@ export const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
     liveUrl: null,
     githubUrl: null,
-    coverImage: '/src/assets/projects/rhythm-ragas/cover.png',
+    coverImage: rhythmRagasCover,
     screenshots: [],
     problem:
       'Classical music artists often lack dedicated digital platforms to showcase their work and accept bookings, relying on word-of-mouth or generic event platforms.',
