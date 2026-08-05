@@ -151,17 +151,17 @@ export default function About() {
           <div className="flex flex-col gap-8">
             <FadeUp delay={0.15}>
               <h2 className="text-h2 text-primary" style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}>
-                I build things end-to-end — because the gap between design and engineering is where most products lose their soul.
+                I build things end-to-end because the gap between design and engineering is where most products lose their soul.
               </h2>
             </FadeUp>
 
             <FadeUp delay={0.2}>
               <div className="flex flex-col gap-4 text-secondary text-body">
                 <p>
-                  I'm a BCA graduate from SDM College of Business Management, Mangalore — with a strong interest in product design and full-stack engineering. I work across the entire stack: React interfaces, FastAPI backends, and PostgreSQL databases.
+                  I'm a BCA graduate from SDM College of Business Management, Mangalore with a strong interest in product design and full-stack engineering. I work across the entire stack: React interfaces, FastAPI backends, and PostgreSQL databases.
                 </p>
                 <p>
-                  Beyond code, I think in product terms — user flows, information hierarchy, interaction design. I'm exploring AI-assisted development and how intelligent systems can accelerate thoughtful product building.
+                  Beyond code, I think in product terms user flows, information hierarchy, interaction design. I'm exploring AI-assisted development and how intelligent systems can accelerate thoughtful product building.
                 </p>
               </div>
             </FadeUp>
